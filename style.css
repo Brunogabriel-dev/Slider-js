@@ -14,5 +14,13 @@ header {
 }
 .slider {
   flex: 1;
-  background-color: aquamarine;
+  overflow: hidden;
+}
+.slider--width {
+  height: 100%;
+  display: flex;
+}
+.slider--item {
+  width: 100vw;
+  height: inherit;
 }
