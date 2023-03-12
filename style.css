@@ -16,7 +16,8 @@ header {
   background-color: red;
 }
 .slider {
-  flex: 1;
+  width: 500px;
+  height: 300px;
   overflow: hidden;
 }
 .slider--width {
