@@ -6,7 +6,7 @@ let sliderWidth = document.querySelector('.slider').clientWidth;
 document.querySelector('.slider--width').style.width = 
   `${sliderWidth * totalSlides}px`;
 
-document.querySelector('.slider--controls').style.height = 
+document.querySelector('.slider--controls').style.width = 
   `${sliderWidth}px`;
 document.querySelector('.slider--controls').style.height = 
   `${document.querySelector('.slider').clientHeight}px`;
